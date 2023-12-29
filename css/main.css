@@ -49,7 +49,7 @@ body {
   transform: translate(-50%, 50%); */
 }
 .card .imge {
-  background-image: url(/images/image-product-desktop.jpg);
+  background-image: url(../images/image-product-desktop.jpg);
   width: 50%;
   background-position: center;
   background-size: cover;
@@ -60,7 +60,7 @@ body {
     width: 350px;
   }
   .card .imge {
-    background-image: url("/images/image-product-mobile.jpg");
+    background-image: url(../images/image-product-mobile.jpg);
     width: 100%;
     height: 240px;
   }
@@ -70,12 +70,6 @@ body {
     line-height: 1.6 !important;
     font-size: 17px !important;
   }
-}
-.card img {
-  /* max-height: 100%;
-  max-width: 100%;
-  border-top-left-radius: 6px;
-  border-bottom-left-radius: 6px; */
 }
 .card .text {
   background-color: var(--NWhite);
